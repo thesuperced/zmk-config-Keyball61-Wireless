@@ -11,7 +11,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - '?'
+  - {t: '-', s: _}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -124,7 +124,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYM:
-  - '?'
+  - {t: '-', s: _}
   - '!'
   - '@'
   - '#'
@@ -236,7 +236,7 @@ layers:
   - {t: '9', s: (}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - GAMING
+  - {t: GAMING, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -291,7 +291,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - GAMING
+  - {t: GAMING, h: toggle}
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-down$$
@@ -353,22 +353,22 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: T, type: held alternate}
+  - T
   - R
   - E
   - W
   - Q
   - $$mdi:pan-up$$
   - $$mdi:keyboard-tab$$
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '4', s: $}
-  - {t: '3', s: '#', type: held alternate}
+  - {t: '3', s: '#'}
   - $$mdi:pan-down$$
   - $$mdi:keyboard-esc$$
   SNIPE:
