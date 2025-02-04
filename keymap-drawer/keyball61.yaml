@@ -308,7 +308,7 @@ layers:
   - {t: '4', s: $}
   - {t: '3', s: '#'}
   - $$mdi:pan-down$$
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', h: MOUSE}
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
