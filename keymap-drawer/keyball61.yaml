@@ -44,7 +44,7 @@ layers:
   - V
   - B
   - PgDn
-  - PgUp
+  - {t: PgUp, h: MOUSE}
   - N
   - M
   - {t: ',', s: <}
@@ -230,14 +230,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: GAMING, h: toggle}
+  - {t: GAMING, h: toggle, type: held}
   - PgDn
   - PgUp
   - $$mdi:pan-down$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
