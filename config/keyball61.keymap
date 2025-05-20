@@ -14,7 +14,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include "../include/keys_de.h"  // Updated path for German keycodes // Added for German keycodes
+#include "include/keys_de.h"  // Updated path for German keycodes // Added for German keycodes
 
 &lt {
     tapping-term-ms = <240>;
