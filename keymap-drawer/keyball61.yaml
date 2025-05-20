@@ -180,7 +180,7 @@ layers:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - MUTE
-  - LOCK
+  - AL COFFEE
   - {type: held}
   - PgDn
   - PgUp
