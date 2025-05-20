@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: keyball61}
 layers:
-  QWERTZ:
+  'QWERTZ ':
   - $$mdi:keyboard-esc$$
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 1 AND EXCLAMATION))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 2 AND AT))
@@ -51,18 +51,18 @@ layers:
   - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE))
-  - MOUSE
+  - 'MOUSE '
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - SYM
+  - 'SYM '
   - $$mdi:keyboard-space$$
-  - NUM FUN
+  - 'NUM FUN '
+  - {t: '$$mdi:keyboard-return$$', h: 'MOUSE '}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', h: MOUSE}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:backspace-reverse-outline$$
-  SYM:
+  'SYM ':
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -124,7 +124,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD M)))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE))
-  NUM FUN:
+  'NUM FUN ':
   - $$mdi:bluetooth-off$$
   - F1
   - F2
@@ -137,7 +137,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 9 AND LEFT PARENTHESIS))
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS)))
   - PLAY PAUSE
-  - {t: QWERTZ, h: toggle}
+  - {t: 'QWERTZ ', h: toggle}
   - F6
   - F7
   - F8
@@ -149,7 +149,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 6 AND CARET))
   - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK))))
   - $$mdi:skip-next$$
-  - SYM
+  - 'SYM '
   - F11
   - F12
   - F13
@@ -161,7 +161,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 3 AND HASH))
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 9 AND LEFT PARENTHESIS)))
   - PREVIOUS
-  - {t: MOUSE, h: toggle}
+  - {t: 'MOUSE ', h: toggle}
   - F9
   - F10
   - F11
@@ -175,7 +175,7 @@ layers:
   - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK)))
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: GAMING, h: toggle}
+  - {t: 'GAMING ', h: toggle}
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
@@ -186,8 +186,8 @@ layers:
   - PgUp
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 9 AND LEFT PARENTHESIS)))
   - $$mdi:backspace-reverse-outline$$
-  MOUSE:
-  - {t: QWERTZ, h: toggle}
+  'MOUSE ':
+  - {t: 'QWERTZ ', h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -230,7 +230,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: GAMING, h: toggle}
+  - {t: 'GAMING ', h: toggle}
   - PgDn
   - PgUp
   - $$mdi:pan-down$$
@@ -244,12 +244,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  GAMING:
-  - {t: QWERTZ, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  'GAMING ':
+  - {t: 'QWERTZ ', h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -308,5 +308,5 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - I
   - Z
-  - {t: QWERTZ, h: toggle}
-  - {t: '$$mdi:keyboard-esc$$', h: MOUSE}
+  - {t: 'QWERTZ ', h: toggle}
+  - {t: '$$mdi:keyboard-esc$$', h: 'MOUSE '}
