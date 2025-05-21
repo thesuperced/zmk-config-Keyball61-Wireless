@@ -180,7 +180,7 @@ layers:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - MUTE
-  - SCREENSAVER
+  - '&mt LG(L) LC(LG((ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Q))))'
   - {type: held}
   - PgDn
   - PgUp
