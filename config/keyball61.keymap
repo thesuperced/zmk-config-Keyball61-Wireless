@@ -58,11 +58,11 @@
         function_layer {
             label = "NUM FUN ";
             bindings = <
-&bt BT_CLR  &kp F1      &kp F2        &kp F3      &kp F4      &kp F5                                            &kp DE_PLUS      &kp DE_N7  &kp DE_N8     &kp DE_N9   &kp DE_EQUAL              &kp C_PLAY_PAUSE
-&to 0       &kp F6      &kp F7        &kp F8      &kp F9      &kp F10                                           &kp DE_MINUS     &kp DE_N4  &kp DE_N5     &kp DE_N6   &kp DE_LPAR               &kp C_NEXT
-&mo 1       &kp F11     &kp F12       &kp F13     &kp F14     &kp F15                                           &kp DE_ASTERISK  &kp DE_N1  &kp DE_N2     &kp DE_N3   &kp DE_RIGHT_PARENTHESIS  &kp C_PREVIOUS
-&to 3       &kp F9      &kp F10       &kp F11     &kp F12     &kp C_VOL_DN       &kp C_VOL_UP  &kp PRINTSCREEN  &kp DE_SLASH     &kp DE_N0  &kp DE_COMMA  &kp DE_DOT  &kp DE_LEFT_BRACKET       &kp BACKSPACE
-&tog 4      &bt BT_PRV  &bt BT_SEL 0  &bt BT_NXT  &kp K_MUTE  &kp K_SCREENSAVER  &trans        &kp PAGE_DOWN    &kp PAGE_UP                                           &kp DE_RIGHT_BRACKET      &kp DELETE
+&bt BT_CLR  &kp F1      &kp F2        &kp F3      &kp F4      &kp F5                                                 &kp DE_PLUS      &kp DE_N7  &kp DE_N8     &kp DE_N9   &kp DE_EQUAL              &kp C_PLAY_PAUSE
+&to 0       &kp F6      &kp F7        &kp F8      &kp F9      &kp F10                                                &kp DE_MINUS     &kp DE_N4  &kp DE_N5     &kp DE_N6   &kp DE_LPAR               &kp C_NEXT
+&mo 1       &kp F11     &kp F12       &kp F13     &kp F14     &kp F15                                                &kp DE_ASTERISK  &kp DE_N1  &kp DE_N2     &kp DE_N3   &kp DE_RIGHT_PARENTHESIS  &kp C_PREVIOUS
+&to 3       &kp F9      &kp F10       &kp F11     &kp F12     &kp C_VOL_DN            &kp C_VOL_UP  &kp PRINTSCREEN  &kp DE_SLASH     &kp DE_N0  &kp DE_COMMA  &kp DE_DOT  &kp DE_LEFT_BRACKET       &kp BACKSPACE
+&tog 4      &bt BT_PRV  &bt BT_SEL 0  &bt BT_NXT  &kp K_MUTE  &mt LG(L) LC(LG(DE_Q))  &trans        &kp PAGE_DOWN    &kp PAGE_UP                                           &kp DE_RIGHT_BRACKET      &kp DELETE
             >;
         };
 
